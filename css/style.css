@@ -1,8 +1,39 @@
 header{
     width: 33.33vh;
+    background: linear-gradient(to bottom, #0066ff -50%, #f800f8 120%);
+    background-image: url(../img/face_nav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.face{
+    opacity: 0.15;
+    z-index: -1;
 }
 
 main{
     width: 100%;
 }
 
+.nav{
+    font-size: 4.5vh;
+    width: 33.33vh;
+    padding: 30px 0;
+}
+
+nav ul li{
+    margin: 15px;
+}
+
+nav ul li a{
+    color: #fff !important;
+}
+
+nav ul li a:hover{
+    text-decoration: underline !important;
+}
+
+main{
+    background: rgb(224, 224, 224);
+}
