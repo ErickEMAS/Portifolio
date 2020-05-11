@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 header{
     width: 33.33vh;
     background: linear-gradient(to bottom, #0066ff -50%, #f800f8 120%);
@@ -16,10 +18,15 @@ main{
     width: 100%;
 }
 
+#home{
+    border-bottom: rgba(0, 0, 0, 0.11) solid 2px;
+}
+
 .nav{
     font-size: 4.5vh;
     width: 33.33vh;
     padding: 30px 0;
+
 }
 
 nav ul li{
@@ -35,5 +42,53 @@ nav ul li a:hover{
 }
 
 main{
-    background: rgb(224, 224, 224);
+    background: rgb(238, 237, 237);
 }
+
+.tag{
+    font-family: 'Pacifico', cursive;
+    font-size: 10px;
+    margin: 0;
+    opacity: 0.4;
+    display: none;
+}
+
+h1{
+    font-size: 10vh !important;   
+    margin: 0 !important;
+}
+
+h2{
+    font-size: 6vh !important;
+    opacity: 0.85;
+    margin: 0 !important;
+}
+
+#perfil{
+    width: 100%;
+    display: flex;
+}
+
+#img-perfil{
+    height: 40vh;
+    margin: 0 auto;
+    align-items: center;
+    height: 50vh;
+}
+
+#article-perfil{
+    position: absolute;
+    right: 5%;
+    top: 20vh;
+    z-index: 2;
+    width: 60%;
+}
+
+#bg-perfil{
+    position: absolute;
+    right: 5%;
+    top: 20vh;
+    z-index: 2;
+    width: 60%;
+}
+
