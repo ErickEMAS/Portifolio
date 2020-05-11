@@ -135,8 +135,16 @@ h2{
 
 .img-logo:hover{
     filter: none;
-    height: 80%;
+    height: 75%;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.img-about-me{
+    filter: grayscale(100%);
+}
+
+.img-about-me:hover{
+    filter: grayscale(10%);
 }
 
 .h-5{
