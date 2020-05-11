@@ -45,14 +45,6 @@ main{
     background: rgb(238, 237, 237);
 }
 
-.tag{
-    font-family: 'Pacifico', cursive;
-    font-size: 10px;
-    margin: 0;
-    opacity: 0.4;
-    display: none;
-}
-
 h1{
     font-size: 10vh !important;   
     margin: 0 !important;
@@ -96,6 +88,10 @@ h2{
     border-bottom: rgba(0, 0, 0, 0.11) solid 2px;
 }
 
+#about h4{
+    font-size: 22px !important;
+}
+
 .about-div, .portifolio-div, .contact-div{
     padding-left: 35vh;
 }
@@ -111,7 +107,7 @@ h2{
 }
 
 .img-about::-webkit-scrollbar-thumb {
-    background: #0059ffe1;
+    background: rgba(0, 89, 255, 0.5);
 }
 
 .img-about img{
