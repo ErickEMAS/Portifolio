@@ -92,7 +92,7 @@ h2{
     width: 60%;
 }
 
-.aboute-div{
+.about-div, .portifolio-div, .contac-div{
     padding-left: 35vh;
 }
 
@@ -133,4 +133,20 @@ h2{
     filter: none;
     height: 80%;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.h-10{
+    height: 10%;; 
+}
+
+.h-45{
+    height: 45%;
+}
+
+.h-90{
+    height: 90%;
+}
+
+.portifolio-div:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.01)
 }
