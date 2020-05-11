@@ -102,13 +102,15 @@ h2{
 }
 
 .img-about::-webkit-scrollbar {
-    width: 6px;
+    height: 6px;
     opacity: 0;
 }
 
 .img-about::-webkit-scrollbar-thumb {
-    background: rgba(0, 89, 255, 0.5);
+    background: rgba(51, 64, 87, 0.5);
+    border-radius: 55px;
 }
+
 
 .img-about img{
     margin: auto 2.5%;
