@@ -92,7 +92,11 @@ h2{
     width: 60%;
 }
 
-.about-div, .portifolio-div, .contac-div{
+#about{
+    border-bottom: rgba(0, 0, 0, 0.11) solid 2px;
+}
+
+.about-div, .portifolio-div, .contact-div{
     padding-left: 35vh;
 }
 
@@ -135,12 +139,20 @@ h2{
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,.5);
 }
 
-.h-10{
-    height: 10%;; 
+.h-5{
+    height: 5%;; 
+}
+
+.h-15{
+    height: 15%;; 
 }
 
 .h-45{
     height: 45%;
+}
+
+.h-80{
+    height: 80%;; 
 }
 
 .h-90{
@@ -149,4 +161,22 @@ h2{
 
 .portifolio-div:nth-child(odd){
     background-color: rgba(0, 0, 0, 0.01)
+}
+
+.contact-div:nth-child(odd){
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.contact-div:nth-child(3) h3{
+    font-size: 15px;
+    color: rgba(160, 160, 160, 0.98);
+    margin: 0;
+}
+
+.img-contact{
+    opacity: 0.5;
+}
+
+.img-contact:hover{
+    opacity: 1;
 }
