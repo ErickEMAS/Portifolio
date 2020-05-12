@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/style.css">
-    <link id="style" rel="stylesheet" href="css/stylesmobile.css" media="screen and (max-width: 992px)">
+    <link id="style" rel="stylesheet" href="css/stylesmobile.css" media="screen and (max-width: 990px)">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -18,8 +18,13 @@
 
 <body class="w-100" style="margin: 0;">
 
-  <header class="vh-100 fixed-top p-0">
+  <header class="p-0">
     <nav class="position-absolute left-0">
+      <button class="open-nav" style="border:none">
+        <span class="line" id="line1"></span>
+        <span class="line" id="line2"></span>
+        <span class="line" id="line3"></span>
+      </button>
       <ul class="nav">
         <li><a class="nav-link active" href="#home">Home</a></li>
         <li><a class="nav-link active" href="#about">Sobre</a></li>
@@ -30,6 +35,8 @@
   </header>
 
   <main >
+
+    
     <section id="home" class="vh-100">
       <article class="">
         <img class="face vh-100 " src="img/face_home.png" alt="">
@@ -46,28 +53,28 @@
     <section id="about" class="vh-100">
       <div class="about-div pair-about h-25 w-100 position-relative">
         <div>
-          <h3>Erick Alexandre Mendes de Souza</h3>
+          <h3>Erick Alexandre <span class="none">Mendes de Souza</span> </h3>
         </div>
-        <div class=" h-75 w-100 d-flex position-relative">
-          <div class="fist-info img-about d-flex flex-column justify-content-center align-items-center" data-toggle="tooltip" data-placement="bottom" title="Idade: 23 anos">
+        <div class=" img-about  h-75 w-100 d-flex position-relative">
+          <div class="fist-info d-flex flex-column justify-content-center align-items-center" data-toggle="tooltip" data-placement="bottom" title="Idade: 23 anos">
             <img class="h-50 img-about-me" src="img/born.png" alt="">
             <h4>11/05/1997</h4>
           </div>
-          <div class="fist-info img-about d-flex flex-column justify-content-center align-items-center" data-toggle="tooltip" data-placement="bottom" title="Nacionalidade: Brasileiro">
+          <div class="fist-info d-flex flex-column justify-content-center align-items-center" data-toggle="tooltip" data-placement="bottom" title="Nacionalidade: Brasileiro">
             <img class="h-50 img-about-me" src="img/bra.png" alt="">
             <h4>Brasileiro</h4>
           </div>
-          <div class="fist-info img-about d-flex flex-column justify-content-center align-items-center" data-toggle="tooltip" data-placement="bottom" title="Sexo: Masculino">
+          <div class="fist-info d-flex flex-column justify-content-center align-items-center" data-toggle="tooltip" data-placement="bottom" title="Sexo: Masculino">
             <img class="h-50 img-about-me" src="img/male.png" alt="">
             <h4>Masculino</h4>
           </div>
-          <div class="fist-info img-about d-flex flex-column justify-content-center align-items-center" data-toggle="tooltip" data-placement="bottom" title="Estado Civil: Solteiro">
+          <div class="fist-info d-flex flex-column justify-content-center align-items-center" data-toggle="tooltip" data-placement="bottom" title="Estado Civil: Solteiro">
             <img class="h-50 img-about-me" src="img/relationshio.png" alt="">
             <h4>Solteiro</h4>
           </div>
-          <div class="fist-info img-about d-flex flex-column justify-content-center align-items-center" data-toggle="tooltip" data-placement="bottom" title="Endereço: São Bernardo do Campo - SP">
+          <div class="fist-info d-flex flex-column justify-content-center align-items-center" data-toggle="tooltip" data-placement="bottom" title="Endereço: São Bernardo do Campo - SP">
             <img class="h-50 img-about-me" src="img/loc.png" alt="">
-            <h4>SBC-SP</h4>
+            <h4>SBC<span class="none">-SP</span></h4>
           </div>  
         </div>
       </div>
@@ -484,7 +491,7 @@
     <section id="portifolio" class="vh-100">
       <div class="portifolio-div  h-50 d-flex justify-content-around align-items-center">
         <div class="h-100 w-25 d-flex justify-content-center align-items-center">
-          <img class="img-project h-50" src="img/economiza.png" alt="">
+          <img class="img-project" src="img/economiza.png" alt="">
         </div>
         <div class="project-info h-100 w-75 d-flex-row justify-content-center align-items-center p-5">
           <h4 class="text-center">Projeto Economiza</h4>
@@ -495,7 +502,7 @@
 
       <div class="portifolio-div  h-50 d-flex justify-content-around align-items-center">
         <div class="h-100 w-25 d-flex justify-content-center align-items-center">
-          <img class="img-project h-50" src="img/qlt.png" alt="">
+          <img class="img-project" src="img/qlt.png" alt="">
         </div>
         <div class="project-info h-100 w-75 d-flex-row justify-content-center align-items-center p-5">
           <h4 class="text-center">Projeto Site da QLT transportes</h4>
