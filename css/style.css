@@ -187,3 +187,8 @@ h2{
 #complete .progress-bar{
     background: linear-gradient(90deg, rgb(49, 104, 255) 0%, rgba(255,0,255,1) 100%);
 }
+
+.img-project:hover{
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+    cursor: pointer;
+}
