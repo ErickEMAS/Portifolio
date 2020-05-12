@@ -153,10 +153,6 @@ h2{
     height: 15%;; 
 }
 
-.h-45{
-    height: 45%;
-}
-
 .h-80{
     height: 80%;; 
 }
@@ -185,4 +181,8 @@ h2{
 
 .img-contact:hover{
     opacity: 1;
+}
+
+#complete .progress-bar{
+    background: linear-gradient(90deg, rgb(49, 104, 255) 0%, rgba(255,0,255,1) 100%);
 }
